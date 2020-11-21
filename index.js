@@ -14,7 +14,7 @@ client.on('message', message => {
         return message.reply("yo! Para saber meus comandos, utilize: `$info`.");
     }
 
-    if (message.content.includes("http://") || message.content.includes(".com") || message.content.includes("discord.gifts") || message.content.includes("discord.gift") || message.content.includes("discord.gg")) {
+    if (message.content.includes("discord.gifts") || message.content.includes("discord.gift") || message.content.includes("discord.gg")) {
         message.delete();
         message.reply("Sem divulgação.");
     }
