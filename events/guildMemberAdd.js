@@ -14,6 +14,12 @@ module.exports = (client, member) => {
                 name: "🤖 | para saber meus comandos:",
                 value: "me chame! Como fazer isso? Bem simples, apenas diga: `Woah!`.",
                 inline: true
+            },
+            
+            {
+                name: "👉 | caso seja de seu interesse:",
+                value: "acesse o canal do dono: https://www.youtube.com/channel/UCctMavasWBoZsJ-3eAMpytg?view_as=subscriber",
+                inline: true
             }
         ]
     }});
